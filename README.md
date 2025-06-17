@@ -17,4 +17,4 @@ The initial benchmarks obtained for five different variants of Yolov11 across ni
 | [Small](https://github.com/aaslihanyildirim/GenYOLO-Leaf/releases/download/shared_best_models/best_s.pt)         | 0.8582        | 0.8585       | 0.9319         | 0.8246            | 0.8574       | 0.8578      | 0.9320         | 0.8522            |
 | [Nano](https://github.com/aaslihanyildirim/GenYOLO-Leaf/releases/download/shared_best_models/best_n.pt)          | 0.8393        | 0.8243       | 0.9119         | 0.7968            | 0.8397       | 0.8222      | 0.9117         | 0.8218            |
 # Examples of Zero-Sot Evaluation of Instance Segmntation
-![Train Images and labels](instance.jpg)
+![Train Images and labels](figures/instance.jpg)
