@@ -38,7 +38,7 @@ The visual representing our data and labels, which include 9 different plant spe
 
 ---
 
-## 📊 Initial Benchmarks
+## 📊 Initial Benchmarks and Models
 
 The initial benchmarks obtained for five different variants of Yolov11 across nine distinct datasets are presented in the table below:
 
