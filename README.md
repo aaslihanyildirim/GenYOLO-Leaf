@@ -6,10 +6,7 @@
 
 🌿 GenYOLO-Leaf 🌿
 
-</div>
-### A Data-Centric and Open Source Framework for Generalizable Leaf Instance Segmentation Across Diverse Datasets  
-
-This repository contains the official code for the paper  
+## A Data-Centric and Open Source Framework for Generalizable Leaf Instance Segmentation Across Diverse Datasets. This repository contains the official code for the paper  
 "GenYOLO-Leaf: A Data-Centric and Open Source Framework for Generalizable Leaf Instance Segmentation Across Diverse Datasets"  
 by A. Yıldırım and R. Terzi.  
 The paper will be made publicly available.
