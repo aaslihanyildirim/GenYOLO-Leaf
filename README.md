@@ -68,6 +68,18 @@ Instance segmentation datasets, the first row images, the second row ground trut
 
 ---
 
+## 🧪 Examples of Zero-Shot Evaluation on Semantic Segmentation Datasets
+
+Semantic segmentation datasets, the first row images, the second row ground truth masks and the third row masks predicted by the model are shown in the figure below, respectively.
+
+<div align="center">
+
+<img src="instance masks.jpg" alt="Instance Masks" width="500"/>
+
+</div>
+
+---
+
 ## 📖 Citation
 
 If you are going to use the published weights within the scope of this study, please cite the original article.
