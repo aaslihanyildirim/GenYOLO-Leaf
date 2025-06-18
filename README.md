@@ -14,22 +14,22 @@ Despite its importance, existing instance segmentation datasets often suffer fro
 To address these challenges, this study presents **GenYOLO-Leaf** — a **data-centric**, **open-source** framework developed for instance-level leaf segmentation with enhanced generalizability.  
 Leveraging diverse datasets enriched with detailed annotations, GenYOLO-Leaf supports transfer learning and robust segmentation across tasks.  
 
-## 🔑 Key Features
+### 🔑 Key Features
 
 - **🎯 Data-Centric and Generalizable**  
-  GenYOLO-Leaf framework’ü üzerine kuruludur. Bitki fenotipleme, hastalık tespiti, büyüme izleme, yaprak sayımı, yaprak aşılaması ve arka plan kaldırma gibi çok çeşitli görevleri destekleyen veri odaklı ve genellenebilir bir yaklaşım benimser.
+  Built upon the GenYOLO-Leaf framework, this project adopts a data-centric paradigm to address a wide range of applications, including plant phenotyping, disease detection, growth monitoring, leaf counting, leaf grafting, and background removal. The framework emphasizes generalization across diverse domains.
 
 - **⚡ Efficient Transfer Learning Resource**  
-  Önceden eğitilmiş modeller ve ağırlıklar açıkça sunulmuştur. Bu sayede yeni görevlere kolayca uyarlanabilir ve eğitim/inferans maliyetleri önemli ölçüde azaltılır.
+  Pre-trained models and weights are openly provided, enabling efficient adaptation to new tasks with significantly reduced training and inference costs.
 
 - **🧪 Zero-Shot Benchmarking Across Datasets**  
-  Framework, sekiz farklı halka açık veri seti üzerinde zero-shot değerlendirmelerle test edilmiştir. Bu da dayanıklılığını ve geniş uygulanabilirliğini göstermektedir.
+  The framework has been rigorously evaluated through zero-shot benchmarking across eight widely used public datasets, demonstrating its robustness and adaptability to various segmentation scenarios.
 
-- **🤝 Community-Supported and Hardware-Friendly**  
-  Farklı donanım yapılandırmalarıyla uyumlu olacak şekilde tasarlanmıştır. Ayrıca açık kaynak topluluğu tarafından desteklenerek ölçeklenebilir ve genişletilebilir kullanım sağlar.
+- **🤝 Community-Supported and Hardware-Compatible**  
+  Designed for compatibility with a variety of hardware configurations, the framework is supported by an active open-source community, facilitating scalability, extensibility, and collaborative development.
 
 - **🌐 Open Access and Extensibility**  
-  Kaynak kodu ve model ağırlıkları dahil olmak üzere tüm framework açık erişimlidir. Bu durum, akademik iş birliğini, çoğaltılabilirliği ve ileri geliştirmeleri teşvik eder.
+  The full framework, including source code and pre-trained weights, is publicly available to encourage reproducibility, transparency, and continued innovation within the research community.
 
 
 ---
