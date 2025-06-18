@@ -22,7 +22,7 @@ Leveraging diverse datasets enriched with detailed annotations, GenYOLO-Leaf sup
 - **⚡ Efficient Transfer Learning Resource**  
   Pre-trained models and weights are openly provided, enabling efficient adaptation to new tasks with significantly reduced training and inference costs.
 
-- **🧪 Zero-Shot Benchmarking Across Datasets**  
+- **🛠 Zero-Shot Benchmarking Across Datasets**  
   The framework has been rigorously evaluated through zero-shot benchmarking across eight widely used public datasets, demonstrating its robustness and adaptability to various segmentation scenarios.
 
 - **🤝 Community-Supported and Hardware-Compatible**  
