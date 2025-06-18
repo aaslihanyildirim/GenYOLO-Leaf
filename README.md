@@ -17,7 +17,7 @@ The initial benchmarks obtained for five different variants of Yolov11 across ni
 | [Small](https://github.com/aaslihanyildirim/GenYOLO-Leaf/releases/download/shared_best_models/best_s.pt)         | 0.8582        | 0.8585       | 0.9319         | 0.8246            | 0.8574       | 0.8578      | 0.9320         | 0.8522            |
 | [Nano](https://github.com/aaslihanyildirim/GenYOLO-Leaf/releases/download/shared_best_models/best_n.pt)          | 0.8393        | 0.8243       | 0.9119         | 0.7968            | 0.8397       | 0.8222      | 0.9117         | 0.8218            |
 # Examples of Zero-Shot Evaluation on Instance Segmentation Datasets
-![Instance Masks](instance best predictions-Sayfa -2.jpg)
+![Instance Masks](instance masks.jpg)
 Instance segmentation datasets, the first row images, the second row ground truth masks and the third row masks predicted by the model are shown in the figure below, respectively.
 
 
