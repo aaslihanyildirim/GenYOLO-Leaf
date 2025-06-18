@@ -14,21 +14,23 @@ Despite its importance, existing instance segmentation datasets often suffer fro
 To address these challenges, this study presents **GenYOLO-Leaf** — a **data-centric**, **open-source** framework developed for instance-level leaf segmentation with enhanced generalizability.  
 Leveraging diverse datasets enriched with detailed annotations, GenYOLO-Leaf supports transfer learning and robust segmentation across tasks.  
 
-The framework was evaluated in a **zero-shot** setting on **eight datasets** — four for instance and four for semantic segmentation —  
-achieving mAP scores between 63% and 83% and Mean IoU scores ranging from 86% to 99%.  
-The framework is freely accessible to the research community.
+## 🔑 Key Features
 
-Key Features:
+- **🎯 Data-Centric and Generalizable**  
+  GenYOLO-Leaf framework’ü üzerine kuruludur. Bitki fenotipleme, hastalık tespiti, büyüme izleme, yaprak sayımı, yaprak aşılaması ve arka plan kaldırma gibi çok çeşitli görevleri destekleyen veri odaklı ve genellenebilir bir yaklaşım benimser.
 
-Data-Centric and Generalizable: Built on the GenYOLO-Leaf framework, this project adopts a data-centric approach and supports a wide range of tasks such as plant phenotyping, disease detection, growth monitoring, leaf counting, leaf grafting, and background removal.
+- **⚡ Efficient Transfer Learning Resource**  
+  Önceden eğitilmiş modeller ve ağırlıklar açıkça sunulmuştur. Bu sayede yeni görevlere kolayca uyarlanabilir ve eğitim/inferans maliyetleri önemli ölçüde azaltılır.
 
-Efficient Transfer Learning Resource: Pre-trained models and weights are openly provided, enabling effortless adaptation to new tasks while significantly reducing training and inference costs.
+- **🧪 Zero-Shot Benchmarking Across Datasets**  
+  Framework, sekiz farklı halka açık veri seti üzerinde zero-shot değerlendirmelerle test edilmiştir. Bu da dayanıklılığını ve geniş uygulanabilirliğini göstermektedir.
 
-Zero-Shot Benchmarking Across Datasets: The framework has been rigorously evaluated through zero-shot benchmarking on eight widely used public datasets, ensuring robustness and broad applicability.
+- **🤝 Community-Supported and Hardware-Friendly**  
+  Farklı donanım yapılandırmalarıyla uyumlu olacak şekilde tasarlanmıştır. Ayrıca açık kaynak topluluğu tarafından desteklenerek ölçeklenebilir ve genişletilebilir kullanım sağlar.
 
-Community-Supported and Hardware-Friendly: Designed to be compatible with various hardware configurations and supported by an active open-source community, allowing for scalable deployment and extensibility.
+- **🌐 Open Access and Extensibility**  
+  Kaynak kodu ve model ağırlıkları dahil olmak üzere tüm framework açık erişimlidir. Bu durum, akademik iş birliğini, çoğaltılabilirliği ve ileri geliştirmeleri teşvik eder.
 
-Open Access and Extensibility: The entire framework, including source code and model weights, is publicly available—encouraging collaboration, reproducibility, and further development across the research community.
 
 ---
 
