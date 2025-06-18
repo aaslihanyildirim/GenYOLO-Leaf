@@ -4,7 +4,7 @@
 ### A Data-Centric and Open Source Framework for Generalizable Leaf Instance Segmentation Across Diverse Datasets  
 </div>
 This repository contains the official code for the paper  
-**"GenYOLO-Leaf: A Data-Centric and Open Source Framework for Generalizable Leaf Instance Segmentation Across Diverse Datasets"**  
+"GenYOLO-Leaf: A Data-Centric and Open Source Framework for Generalizable Leaf Instance Segmentation Across Diverse Datasets"  
 by A. Yıldırım and R. Terzi.  
 The paper will be made publicly available.
 
@@ -21,7 +21,7 @@ To address these challenges, this study presents **GenYOLO-Leaf** — a **data-c
 Leveraging diverse datasets enriched with detailed annotations, GenYOLO-Leaf supports transfer learning and robust segmentation across tasks.  
 
 The framework was evaluated in a **zero-shot** setting on **eight datasets** — four for instance and four for semantic segmentation —  
-achieving **mAP scores between 63% and 83%** and **Mean IoU scores ranging from 86% to 99%**.  
+achieving mAP scores between 63% and 83% and Mean IoU scores ranging from 86% to 99%.  
 The framework is freely accessible to the research community.
 
 ---
@@ -30,7 +30,7 @@ The framework is freely accessible to the research community.
 ## 🏷️ Examples of Train Datasets
 <div align="center">
   
-<img src="train_sets.jpg" alt="Train Images and Labels" width="600"/>
+<img src="train_sets.jpg" alt="Train Images and Labels" width="1200"/>
 
 </div>
 
