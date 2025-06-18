@@ -62,7 +62,7 @@ Instance segmentation datasets, the first row images, the second row ground trut
 
 <div align="center">
 
-<img src="figures/instance_masks.jpg" alt="Instance Masks" width="800"/>
+<img src="figures/instance_masks.jpg" alt="Instance Masks" width="650"/>
 
 </div>
 
