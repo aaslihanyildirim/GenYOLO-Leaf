@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌿 GenYOLO-Leaf  
+# 🌿 GenYOLO-Leaf 🌿 
 ### A Data-Centric and Open Source Framework for Generalizable Leaf Instance Segmentation Across Diverse Datasets  
 </div>
 This repository contains the official code for the paper  
@@ -27,7 +27,7 @@ The framework is freely accessible to the research community.
 ---
 
 
-## 🏷️ Examples of Train Datasets
+## 🧠 Examples of Train Datasets
 <div align="center">
   
 <img src="train_sets.jpg" alt="Train Images and Labels" width="1200"/>
