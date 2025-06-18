@@ -1,5 +1,7 @@
+<img src="figures/genyolo.png" alt="Train Images and Labels" width="600"/>
+
 <div align="center">
-  <img src="figures/genyolo.png" alt="Train Images and Labels" width="600"/>
+  
 </div>
 
 # 🌿 GenYOLO-Leaf 🌿
