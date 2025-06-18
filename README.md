@@ -12,7 +12,7 @@ The paper will be made publicly available.
 
 ---
 
-## 🧬 Abstract
+## 🖋 Abstract
 
 Maintaining plant health is a fundamental concern in many fields, particularly for applications such as disease diagnosis, growth monitoring, and phenotype analysis.  
 Despite its importance, existing instance segmentation datasets often suffer from limited diversity in plant species and labeling, resulting in models with restricted generalization ability.  
@@ -30,7 +30,7 @@ The framework is freely accessible to the research community.
 ## 🏷️ Examples of Train Datasets
 <div align="center">
   
-<img src="figures/train_sets.jpg" alt="Train Images and Labels" width="600"/>
+<img src="train_sets.jpg" alt="Train Images and Labels" width="600"/>
 
 </div>
 
