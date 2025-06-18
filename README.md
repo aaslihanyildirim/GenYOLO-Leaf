@@ -28,6 +28,8 @@ The framework is freely accessible to the research community.
 
 
 ## 🧠 Examples of Train Datasets
+
+The visual representing our data and labels, which include 9 different plant species and different plant tasks, is as follows:
 <div align="center">
   
 <img src="train_sets.jpg" alt="Train Images and Labels" width="1200"/>
