@@ -26,10 +26,10 @@ The framework is freely accessible to the research community.
 
 ---
 
-<div align="center">
 
 ## 🏷️ Examples of Train Datasets
-
+<div align="center">
+  
 <img src="figures/train_sets.jpg" alt="Train Images and Labels" width="600"/>
 
 </div>
