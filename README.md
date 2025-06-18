@@ -1,5 +1,5 @@
 <div align="center">
-
+<img src="figures/genyolo.png" alt="Train Images and Labels" width="750"/>
 # 🌿 GenYOLO-Leaf 🌿 
 ### A Data-Centric and Open Source Framework for Generalizable Leaf Instance Segmentation Across Diverse Datasets  
 </div>
