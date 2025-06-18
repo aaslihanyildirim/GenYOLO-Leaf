@@ -40,16 +40,17 @@ An overview of the training datasets and the number of extracted instances used 
 
 | **Training Dataset** | **Image Count** | **Plant**              | **Classes** | **Purpose**                     | **Extracted Instances** |
 |----------------------|-----------------|------------------------|-------------|----------------------------------|--------------------------|
-| [Plant Pathology 2021] (https://www.kaggle.com/competitions/plant-pathology-2021-fgvc8)     | 18,632          | Apple                 | 5           | Disease Classification          | 58,496                   |
-| [DiaMOS] (https://zenodo.org/records/5557313)                   | 3,006           | Pear                  | 4           | Disease Classification          | 26,900                   |
-| [Peach Dataset] (https://data.mendeley.com/datasets/3pmj85snvw/1)           | 400             | Peach                 | 6           | Disease Classification          | 4,901                    |
-| [Pumpkin Leaf Disease] (https://data.mendeley.com/datasets/wtxcw8wpxb/1)     | 2,000           | Pumpkin               | 4           | Disease Classification          | 6,403                    |
-| [Sunflower] (https://data.mendeley.com/datasets/b83hmrzth8/1)               | 390             | Sunflower             | 3           | Disease Classification          | 1,151                    |
-| [CVPPP 2017] (https://www.plant-phenotyping.org/datasets-home)               | 933             | Tobacco & Arabidopsis | 2           | Counting and Segmentation       | 8,050                    |
-| [GroundNut]  (https://data.mendeley.com/datasets/x6x5jkk873/2)           | 1,176           | Ground Nut            | 5           | Disease Classification          | 14,931                   |
-| [Betel Leaf] (https://data.mendeley.com/datasets/g7fpgj57wc/2)              | 750             | Betel Leaf            | 4           | Disease Classification          | 1,170                    |
-| [Pl@ntNet 300K - Sample] (https://zenodo.org/records/4726653)   | 3,017           | Various               | Multiple    | Plant and Leaf Classification   | 23,393                   |
-| **Total**              | **30,314**       | --                    | --          | --                               | **145,395**              |
+| [Plant Pathology 2021](https://www.kaggle.com/competitions/plant-pathology-2021-fgvc8) | 18,632 | Apple                 | 5 | Disease Classification          | 58,496 |
+| [DiaMOS](https://zenodo.org/records/5557313) | 3,006 | Pear | 4 | Disease Classification | 26,900 |
+| [Peach Dataset](https://data.mendeley.com/datasets/3pmj85snvw/1) | 400 | Peach | 6 | Disease Classification | 4,901 |
+| [Pumpkin Leaf Disease](https://data.mendeley.com/datasets/wtxcw8wpxb/1) | 2,000 | Pumpkin | 4 | Disease Classification | 6,403 |
+| [Sunflower](https://data.mendeley.com/datasets/b83hmrzth8/1) | 390 | Sunflower | 3 | Disease Classification | 1,151 |
+| [CVPPP 2017](https://www.plant-phenotyping.org/datasets-home) | 933 | Tobacco & Arabidopsis | 2 | Counting and Segmentation | 8,050 |
+| [GroundNut](https://data.mendeley.com/datasets/x6x5jkk873/2) | 1,176 | Ground Nut | 5 | Disease Classification | 14,931 |
+| [Betel Leaf](https://data.mendeley.com/datasets/g7fpgj57wc/2) | 750 | Betel Leaf | 4 | Disease Classification | 1,170 |
+| [Pl@ntNet 300K - Sample](https://zenodo.org/records/4726653) | 3,017 | Various | Multiple | Plant and Leaf Classification | 23,393 |
+| **Total** | **30,314** | -- | -- | -- | **145,395** |
+
 
 The visual representing our data and labels, which include 9 different plant species and different plant tasks, is as follows:
 <div align="center">
