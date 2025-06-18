@@ -12,8 +12,6 @@ The paper will be made publicly available.
 
 ---
 
-<div align="center">
-
 ## 🧬 Abstract
 
 Maintaining plant health is a fundamental concern in many fields, particularly for applications such as disease diagnosis, growth monitoring, and phenotype analysis.  
@@ -25,8 +23,6 @@ Leveraging diverse datasets enriched with detailed annotations, GenYOLO-Leaf sup
 The framework was evaluated in a **zero-shot** setting on **eight datasets** — four for instance and four for semantic segmentation —  
 achieving **mAP scores between 63% and 83%** and **Mean IoU scores ranging from 86% to 99%**.  
 The framework is freely accessible to the research community.
-
-</div>
 
 ---
 
@@ -40,12 +36,9 @@ The framework is freely accessible to the research community.
 
 ---
 
-<div align="center">
+## 📊 Initial Benchmarks
 
-## 📊 Initial Benchmarks  
-Initial benchmarks for five different variants of YOLOv11 across nine distinct datasets:
-
-</div>
+The initial benchmarks obtained for five different variants of Yolov11 across nine distinct datasets are presented in the table below:
 
 <p align="center">
 
@@ -61,13 +54,11 @@ Initial benchmarks for five different variants of YOLOv11 across nine distinct d
 
 ---
 
-<div align="center">
-
 ## 🧪 Examples of Zero-Shot Evaluation on Instance Segmentation Datasets
 
-The first row: input images  
-The second row: ground truth masks  
-The third row: model predictions
+Instance segmentation datasets, the first row images, the second row ground truth masks and the third row masks predicted by the model are shown in the figure below, respectively.
+
+<div align="center">
 
 <img src="figures/instance masks.jpg" alt="Instance Masks" width="700"/>
 
@@ -75,10 +66,6 @@ The third row: model predictions
 
 ---
 
-<div align="center">
-
 ## 📖 Citation
 
 If you are going to use the published weights within the scope of this study, please cite the original article.
-
-</div>
