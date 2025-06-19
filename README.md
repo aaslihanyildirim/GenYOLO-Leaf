@@ -105,4 +105,4 @@ Semantic segmentation datasets, the first column images, the second column groun
 
 ## 📖 Citation
 
-If you are going to use the published weights within the scope of this study, please cite the original article.
+If you are going to use the published weights within the scope of this study, please cite the original article. to be added
