@@ -55,7 +55,7 @@ An overview of the training datasets and the number of extracted instances used 
 The visual representing our data and labels, which include 9 different plant species and different plant tasks, is as follows:
 <div align="center">
   
-<img src="figures/train_images.png" alt="Train Images and Labels" width="1200"/>
+<img src="figures/train_images.png" alt="Train Images and Labels" width="1100"/>
 
 </div>
 
@@ -97,7 +97,7 @@ Semantic segmentation datasets, the first column images, the second column groun
 
 <div align="center">
 
-<img src="figures/semantic masks.png" alt="Instance Masks" width="500"/>
+<img src="figures/semantic masks.png" alt="Instance Masks" width="470"/>
 
 </div>
 
