@@ -55,7 +55,7 @@ An overview of the training datasets and the number of extracted instances used 
 The visual representing our data and labels, which include 9 different plant species and different plant tasks, is as follows:
 <div align="center">
   
-<img src="figures/train_images.png" alt="Train Images and Labels" width="1100"/>
+<img src="figures/train_images.png" alt="Train Images and Labels" width="1000"/>
 
 </div>
 
