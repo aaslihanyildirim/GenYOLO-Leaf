@@ -3,7 +3,7 @@
 </div>
 
 ## 🌿GenYOLO-LEAF: A Data-Centric and Open Source Framework for Generalizable Leaf Instance Segmentation Across Diverse Datasets  
-The paper will be made publicly available.
+
 
 
 ## 🖋 Abstract
@@ -63,7 +63,7 @@ The visual representing our data and labels, which include 9 different plant spe
 
 ## 📊 Initial Benchmarks and Models
 
-For segmentation [Ultralytics](https://github.com/ultralytics/ultralytics) Yolov11 used in this study. The initial benchmarks obtained for five different variants of Yolov11 across nine distinct datasets are presented in the table below:
+For segmentation [Ultralytics](https://github.com/ultralytics/ultralytics) Yolov11 used in this study. If you want to use models, follow the Ultralytics instructions. The initial benchmarks obtained for five different variants of Yolov11 across nine distinct datasets are presented in the table below:
 
 <p align="center">
 
