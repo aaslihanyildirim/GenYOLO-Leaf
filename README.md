@@ -63,7 +63,7 @@ The visual representing our data and labels, which include 9 different plant spe
 
 ## 📊 Initial Benchmarks and Models
 
-For segmentation [Ultralytics] (https://github.com/ultralytics/ultralytics) Yolov11 used in this study. The initial benchmarks obtained for five different variants of Yolov11 across nine distinct datasets are presented in the table below:
+For segmentation [Ultralytics](https://github.com/ultralytics/ultralytics) Yolov11 used in this study. The initial benchmarks obtained for five different variants of Yolov11 across nine distinct datasets are presented in the table below:
 
 <p align="center">
 
