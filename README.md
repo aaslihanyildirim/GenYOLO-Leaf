@@ -1,9 +1,28 @@
 <div align="center">
-  <img src="figures/yololeaf.jpg" alt="Train Images and Labels" width="550"/>
+  <img src="figures/Genyolo-Leaf Banner.png" alt="Train Images and Labels" width="1000"/>
 </div>
 
-## 🌿GenYOLO-LEAF: A Data-Centric and Open Source Framework for Generalizable Leaf Instance Segmentation Across Diverse Datasets  
 
+
+##  GenyYOLO-Leaf: A Data-Centric and Open Source Framework for Generalizable Leaf Instance Segmentation Across Diverse Datasets  
+
+<p align="center">
+  <a href="https://www.python.org/downloads/release/python-3106/">
+    <img src="https://img.shields.io/badge/Python-3.10.6-red.svg">
+  </a>&nbsp;
+  <a href="https://pytorch.org/get-started/previous-versions/">
+    <img src="https://img.shields.io/badge/Pytorch-2.0.1-red.svg">
+  </a>&nbsp;
+  <a href="https://developer.nvidia.com/cuda-11-8-0-download-archive/">
+     <img src="https://img.shields.io/badge/Cuda-11.8-red.svg">
+  </a>&nbsp;
+  <a href="https://github.com/ultralytics/ultralytics">
+    <img src="https://img.shields.io/badge/Ultralytics-green.svg">
+  </a>&nbsp;
+  <a href="https://github.com/aaslihanyildirim/GenYOLO-Leaf/releases/tag/shared_best_models">
+    <img src="https://img.shields.io/badge/Models-blue.svg">
+  </a>
+</p>
 
 
 ## 🖋 Abstract
@@ -85,7 +104,7 @@ Instance segmentation datasets, the first row images, the second row ground trut
 
 <div align="center">
 
-<img src="figures/instance masks.png" alt="Instance Masks" width="450"/>
+<img src="figures/instance masks.png" alt="Instance Masks" width="430"/>
 
 </div>
 
@@ -105,4 +124,4 @@ Semantic segmentation datasets, the first column images, the second column groun
 
 ## 📖 Citation
 
-If you are going to use the published weights within the scope of this study, please cite the original article. to be added
+If you are going to use the published weights within the scope of this study, please cite the original article to be added.
