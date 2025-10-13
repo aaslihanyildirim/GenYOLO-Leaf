@@ -102,7 +102,7 @@ Instance segmentation datasets, the first row images, the second row ground trut
 
 <div align="center">
 
-<img src="figures/instance masks.png" alt="Instance Masks" width="430"/>
+<img src="figures/instance masks.jpg" alt="Instance Masks" width="430"/>
 
 </div>
 
@@ -114,7 +114,7 @@ Semantic segmentation datasets, the first column images, the second column groun
 
 <div align="center">
 
-<img src="figures/semantic.jpg" alt="Semantic Masks" width="470"/>
+<img src="figures/semantic masks.jpg" alt="Semantic Masks" width="430"/>
 
 </div>
 
