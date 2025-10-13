@@ -78,17 +78,19 @@ The visual representing our data and labels, which include 9 different plant spe
 
 ## 📊 Initial Benchmarks and Models
 
-For segmentation [Ultralytics](https://github.com/ultralytics/ultralytics) Yolov11 used in this study. If you want to use models, follow the Ultralytics instructions. The initial benchmarks obtained for five different variants of Yolov11 across nine distinct datasets are presented in the table below:
+For segmentation [Ultralytics](https://github.com/ultralytics/ultralytics) Yolov11 and Yolov8 used in this study. If you want to use models, follow the Ultralytics instructions. The initial benchmarks obtained for five different variants of models across nine distinct datasets are presented in the table below:
 
 <p align="center">
 
-| **Model** | **Seg. Prec** | **Seg. Rec** | **Seg. mAP50** | **Seg. mAP50–95** | **Box Prec** | **Box Rec** | **Box mAP50** | **Box mAP50–95** |
-|----------|---------------|--------------|----------------|-------------------|--------------|-------------|----------------|-------------------|
-| [Extra Large](https://github.com/aaslihanyildirim/GenYOLO-Leaf/releases/download/shared_best_models/best_x.pt) | 0.9348 | 0.9282 | 0.9665 | 0.8790 | 0.9364 | 0.9289 | 0.9692 | 0.9141 |
-| [Large](https://github.com/aaslihanyildirim/GenYOLO-Leaf/releases/download/shared_best_models/best_l.pt)       | 0.8932 | 0.8886 | 0.9511 | 0.8536 | 0.8938 | 0.8896 | 0.9529 | 0.8861 |
-| [Medium](https://github.com/aaslihanyildirim/GenYOLO-Leaf/releases/download/shared_best_models/best_m.pt)      | 0.8902 | 0.8792 | 0.9482 | 0.8504 | 0.8909 | 0.8800 | 0.9500 | 0.8810 |
-| [Small](https://github.com/aaslihanyildirim/GenYOLO-Leaf/releases/download/shared_best_models/best_s.pt)       | 0.8582 | 0.8585 | 0.9319 | 0.8246 | 0.8574 | 0.8578 | 0.9320 | 0.8522 |
-| [Nano](https://github.com/aaslihanyildirim/GenYOLO-Leaf/releases/download/shared_best_models/best_n.pt)        | 0.8393 | 0.8243 | 0.9119 | 0.7968 | 0.8397 | 0.8222 | 0.9117 | 0.8218 |
+## YOLOv11 and YOLOv8 Initial Benchmarking Results on Validation Dataset
+
+| Model | **Prec (YOLOv11)** | **Rec (YOLOv11)** | **mAP50 (YOLOv11)** | **mAP50–95 (YOLOv11)** | **Prec (YOLOv8)** | **Rec (YOLOv8)** | **mAP50 (YOLOv8)** | **mAP50–95 (YOLOv8)** |
+|:------|:------------------:|:-----------------:|:-------------------:|:-----------------------:|:-----------------:|:----------------:|:-----------------:|:----------------------:|
+| **Extra Large** | 0.935 | 0.929 | 0.967 | 0.880 | 0.828 | 0.820 | 0.910 | 0.801 |
+| **Large**        | 0.894 | 0.889 | 0.952 | 0.854 | 0.827 | 0.817 | 0.909 | 0.798 |
+| **Medium**       | 0.891 | 0.880 | 0.949 | 0.851 | 0.828 | 0.817 | 0.908 | 0.795 |
+| **Small**        | 0.859 | 0.859 | 0.932 | 0.825 | 0.833 | 0.835 | 0.916 | 0.805 |
+| **Nano**         | 0.840 | 0.825 | 0.912 | 0.797 | 0.822 | 0.798 | 0.895 | 0.771 |
 
 </p>
 
