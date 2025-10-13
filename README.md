@@ -98,7 +98,7 @@ For segmentation [Ultralytics](https://github.com/ultralytics/ultralytics) Yolov
 
 ## 🧪 Examples of Zero-Shot Evaluation on Instance Segmentation Datasets
 
-Instance segmentation datasets, the first row images, the second row ground truth masks and the third row masks predicted by the model are shown in the figure below, respectively.
+Instance segmentation datasets, the first column images, the second column ground truth masks, the third column masks predicted by YOLOv11 best model and the fourth column masks predicted by Yolov8 are shown in the figure below, respectively.
 
 <div align="center">
 
