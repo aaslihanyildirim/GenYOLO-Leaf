@@ -82,15 +82,25 @@ For segmentation [Ultralytics](https://github.com/ultralytics/ultralytics) Yolov
 
 <p align="center">
 
-## YOLOv11 and YOLOv8 Initial Benchmarking Results on Validation Dataset
+## YOLOv11 Benchmarking Results on Validation Dataset
 
-| Model | **Prec (YOLOv11)** | **Rec (YOLOv11)** | **mAP50 (YOLOv11)** | **mAP50–95 (YOLOv11)** | **Prec (YOLOv8)** | **Rec (YOLOv8)** | **mAP50 (YOLOv8)** | **mAP50–95 (YOLOv8)** |
-|:------|:------------------:|:-----------------:|:-------------------:|:-----------------------:|:-----------------:|:----------------:|:-----------------:|:----------------------:|
-| **Extra Large** | 0.935 | 0.929 | 0.967 | 0.880 | 0.828 | 0.820 | 0.910 | 0.801 |
-| **Large**        | 0.894 | 0.889 | 0.952 | 0.854 | 0.827 | 0.817 | 0.909 | 0.798 |
-| **Medium**       | 0.891 | 0.880 | 0.949 | 0.851 | 0.828 | 0.817 | 0.908 | 0.795 |
-| **Small**        | 0.859 | 0.859 | 0.932 | 0.825 | 0.833 | 0.835 | 0.916 | 0.805 |
-| **Nano**         | 0.840 | 0.825 | 0.912 | 0.797 | 0.822 | 0.798 | 0.895 | 0.771 |
+| Model       | Prec (YOLOv11) | Rec (YOLOv11) | mAP50 (YOLOv11) | mAP50–95 (YOLOv11) |
+|-------------|----------------|---------------|-----------------|--------------------|
+| [YOLO11x-seg](https://github.com/aaslihanyildirim/GenYOLO-Leaf/releases/download/shared_best_models/genyolo_leaf_yolov11x.pt) | 0.935          | 0.929         | 0.967           | 0.880              |
+| [YOLO11l-seg](https://github.com/aaslihanyildirim/GenYOLO-Leaf/releases/download/shared_best_models/genyolo_leaf_yolov11l.pt)       | 0.894          | 0.889         | 0.952           | 0.854              |
+| [YOLO11m-seg](https://github.com/aaslihanyildirim/GenYOLO-Leaf/releases/download/shared_best_models/genyolo_leaf_yolov11m.pt)      | 0.891          | 0.880         | 0.949           | 0.851              |
+| [YOLO11s-seg](https://github.com/aaslihanyildirim/GenYOLO-Leaf/releases/download/shared_best_models/genyolo_leaf_yolov11s.pt)       | 0.859          | 0.859         | 0.932           | 0.825              |
+| [YOLO11n-seg](https://github.com/aaslihanyildirim/GenYOLO-Leaf/releases/download/shared_best_models/genyolo_leaf_yolov11n.pt)       | 0.840          | 0.825         | 0.912           | 0.797              |
+
+## YOLOv8 Initial Benchmarking Results on Validation Dataset
+
+| Model       | Prec (YOLOv8) | Rec (YOLOv8) | mAP50 (YOLOv8) | mAP50–95 (YOLOv8) |
+|-------------|---------------|--------------|----------------|-------------------|
+| [YOLOv8x-seg](https://github.com/aaslihanyildirim/GenYOLO-Leaf/releases/download/shared_best_yolov8_models/genyolo_leaf_yolov8x.pt) | 0.828         | 0.820        | 0.910          | 0.801             |
+| [YOLOv8l-seg](https://github.com/aaslihanyildirim/GenYOLO-Leaf/releases/download/shared_best_yolov8_models/genyolo_leaf_yolov8l.pt)       | 0.827         | 0.817        | 0.909          | 0.798             |
+| [YOLOv8m-seg](https://github.com/aaslihanyildirim/GenYOLO-Leaf/releases/download/shared_best_yolov8_models/genyolo_leaf_yolov8m.pt)      | 0.828         | 0.817        | 0.908          | 0.795             |
+| [YOLOv8s-seg](https://github.com/aaslihanyildirim/GenYOLO-Leaf/releases/download/shared_best_yolov8_models/genyolo_leaf_yolov8s.pt)       | 0.833         | 0.835        | 0.916          | 0.805             |
+| [YOLOv8n-seg](https://github.com/aaslihanyildirim/GenYOLO-Leaf/releases/download/shared_best_yolov8_models/genyolo_leaf_yolov8n.pt)        | 0.822         | 0.798        | 0.895          | 0.771             |
 
 </p>
 
