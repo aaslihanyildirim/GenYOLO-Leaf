@@ -1,0 +1,10 @@
+gradio>=4.0
+numpy
+opencv-python
+matplotlib
+pandas
+torch
+ultralytics
+scikit-image
+shapely
+tabulate
