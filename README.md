@@ -16,7 +16,9 @@
   <a href="https://pytorch.org/get-started/previous-versions/"><img src="https://img.shields.io/badge/Pytorch-2.0.1-red.svg"></a>
   <a href="https://developer.nvidia.com/cuda-11-8-0-download-archive/"><img src="https://img.shields.io/badge/Cuda-11.8-red.svg"></a>
   <a href="https://github.com/ultralytics/ultralytics"><img src="https://img.shields.io/badge/Ultralytics-green.svg"></a>
-  <a href="https://github.com/aaslihanyildirim/GenYOLO-Leaf/releases/tag/shared_best_models"><img src="https://img.shields.io/badge/Models-blue.svg"></a>
+  <a href="https://huggingface.co/"><img src="https://img.shields.io/badge/Hugginface-yellow.svg"></a>
+  <a href="https://www.gradio.app/"><img src="https://img.shields.io/badge/Gradio-orange.svg"></a>
+  <a href="https://huggingface.co/spaces/aslihanyildirim/genyolo-leaf"><img src="https://img.shields.io/badge/GenYOLOLeaf Gradio Space-purple.svg"></a>
 </p>
 
 
@@ -129,7 +131,47 @@ Semantic segmentation datasets, the first column images, the second column groun
 </div>
 
 ---
+## 🖥️ Interactive Leaf Instance Segmentation App
 
+You can try out the instance leaf segmentation tool we developed using [Hugginface](https://huggingface.co/)'s [Gradio](https://huggingface.co/) server. [Here](https://huggingface.co/spaces/aslihanyildirim/genyolo-leaf), you can run tests on three main screens for all the data-driven YOLO versions we've developed. To run it on your local computer, you must download the included files and follow the instructions.
+
+<div align="center">
+
+<img src="assets/Main Screen.png" alt="Main Screen" height= "700" width="700"/>
+
+</div>
+
+### 🔎 Inference Screen
+
+On the Inference screen, you can upload the image you want to test and set the desired model and confidence threshold. The output will show the instance segmentation mask overlay and binary mask.
+
+<div align="center">
+
+<img src="assets/Inference Screen.png" alt="Inference Screen" height= "700" width="700"/>
+
+</div>
+
+###  📊 Evaluation Screen
+
+On the Evaluation screen, you can upload the image you want to test and its corresponding ground truth mask format, and then view the results of the instance segmentation metrics obtained from the prediction.
+
+<div align="center">
+
+<img src="assets/Evaluation Screen.png" alt="Evaluation Screen" height= "700" width="700"/>
+
+</div>
+
+###  📈 Model Comparision Screen
+
+On the Evaluation screen, you can upload the image you want to test and its corresponding ground truth mask, select the models you want to compare, and view a graph comparing various models in terms of instance segmentation metrics.
+
+<div align="center">
+
+<img src="assets/Model Comparision Screen.png" alt="Evaluation Screen" height= "700" width="700"/>
+
+</div>
+
+---
 ## 📖 Citation
 
-If you are going to use the published weights within the scope of this study, please cite the original article to be added.
+If you are going to use the published weights or GenYOLO-Leaf Gradio App within the scope of this study, please cite the original repo and research article to be added.
