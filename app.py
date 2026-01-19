@@ -14,12 +14,12 @@ from api.metrics import evaluate_instance_segmentation
 
 
 
-#Here, we loading example images and gt masks for screens. You have to change image path according to your file distribution.
+#Here, we loading example images and gt masks for screens. You have to change image path according to your file distribution. Png extention for gt mask.
 
 EXAMPLES = [
-    ["C:/Users/aslihan/Desktop/interactive-leaf-segmentation/examples/input images/00d6e742-756c-4f99-96b6-4f47730ef944.jpg", "C:/Users/aslihan/Desktop/interactive-leaf-segmentation/examples/gt masks/00d6e742-756c-4f99-96b6-4f47730ef944.png"],
-    ["C:/Users/aslihan/Desktop/interactive-leaf-segmentation/examples/input images/0bc33d71-f7b7-491a-919b-97026420060b.jpeg", "C:/Users/aslihan/Desktop/interactive-leaf-segmentation/examples/gt masks/0bc33d71-f7b7-491a-919b-97026420060b.png"],
-    ["C:/Users/aslihan/Desktop/interactive-leaf-segmentation/examples/input images/cjvnxa4wep8as0866zqd41859.jpeg", "C:/Users/aslihan/Desktop/interactive-leaf-segmentation/examples/gt masks/cjvnxa4wep8as0866zqd41859.png"],
+    ["ADD YOUR PATH/00d6e742-756c-4f99-96b6-4f47730ef944.jpg", "ADD YOUR PATH/00d6e742-756c-4f99-96b6-4f47730ef944.png"],
+    ["ADD YOUR PATH/0bc33d71-f7b7-491a-919b-97026420060b.jpeg", "ADD YOUR PATH/0bc33d71-f7b7-491a-919b-97026420060b.png"],
+    ["ADD YOUR PATH/cjvnxa4wep8as0866zqd41859.jpeg", "ADD YOUR PATH/cjvnxa4wep8as0866zqd41859.png"],
 ]
 
 
@@ -604,3 +604,4 @@ with gr.Blocks(
 
 
 demo.launch()
+
