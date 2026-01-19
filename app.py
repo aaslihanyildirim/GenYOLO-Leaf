@@ -1,3 +1,5 @@
+#Importing internal and external libraries and functions.
+
 import os
 import gradio as gr
 import cv2
@@ -9,6 +11,16 @@ from api.inference import run_inference
 from api.postprocess import create_overlay, extract_binary_mask
 from api.utils import masks_from_results
 from api.metrics import evaluate_instance_segmentation
+
+
+
+#Here, we loading example images and gt masks for screens. You have to change image path according to your file distribution.
+
+EXAMPLES = [
+    ["C:/Users/aslihan/Desktop/interactive-leaf-segmentation/examples/input images/00d6e742-756c-4f99-96b6-4f47730ef944.jpg", "C:/Users/aslihan/Desktop/interactive-leaf-segmentation/examples/gt masks/00d6e742-756c-4f99-96b6-4f47730ef944.png"],
+    ["C:/Users/aslihan/Desktop/interactive-leaf-segmentation/examples/input images/0bc33d71-f7b7-491a-919b-97026420060b.jpeg", "C:/Users/aslihan/Desktop/interactive-leaf-segmentation/examples/gt masks/0bc33d71-f7b7-491a-919b-97026420060b.png"],
+    ["C:/Users/aslihan/Desktop/interactive-leaf-segmentation/examples/input images/cjvnxa4wep8as0866zqd41859.jpeg", "C:/Users/aslihan/Desktop/interactive-leaf-segmentation/examples/gt masks/cjvnxa4wep8as0866zqd41859.png"],
+]
 
 
 
@@ -49,7 +61,7 @@ def run_evaluation_ui(image, gt_mask, model, iou_thr):
     pred_masks = masks_from_results(results)
 
     metrics = evaluate_instance_segmentation(
-        gt_mask=gt_mask,          # 🔥 AYNEN GÖNDER
+        gt_mask=gt_mask,          
         pred_masks=pred_masks,
         iou_threshold=iou_thr
     )
@@ -129,7 +141,7 @@ def run_comparison_ui(image, gt_mask, models, iou_thr):
 
 
 # =========================
-# CUSTOM CSS
+# CUSTOM CSS : You can change UI colors etc. from here.
 # =========================
 
 custom_css = """
@@ -421,6 +433,13 @@ with gr.Blocks(
                         elem_id="input-image"
                     )
 
+                    gr.Examples(
+                    examples=EXAMPLES,
+                    inputs=[inf_image],
+                    label="📂 Try with Example Images"
+                    )
+
+
                     inf_model = gr.Dropdown(
                         label="Model",
                         choices=["GenYOLO-Leaf-V8-N", "GenYOLO-Leaf-V8-S", "GenYOLO-Leaf-V8-M","GenYOLO-Leaf-V8-L",
@@ -464,20 +483,25 @@ with gr.Blocks(
           with gr.Row():
            with gr.Column(scale=1):
              eval_image = gr.Image(
-            label="Input Image",
-            type="numpy",
-            height=280,
-            elem_id="eval-input-image"
+             label="Input Image",
+             type="numpy",
+             height=280,
+             elem_id="eval-input-image"
         )
-
-           with gr.Column(scale=1):
-             gt_mask = gr.Image(
-            label="Ground Truth Mask",
-            type="numpy",
-            image_mode="RGB",
-            height=280,
-            elem_id="eval-gt-mask"
+           gt_mask=gr.Image(
+             label="Ground Truth Mask",
+             type="numpy",
+             image_mode="RGB",
+             height=280,
+             elem_id="eval-gt-mask"
         )
+           
+           gr.Examples(
+             examples=EXAMPLES,
+             inputs=[eval_image, gt_mask],
+             label="📂 Evaluation Examples"
+        )   
+          
 
     # ---- ALT: Kontroller + metrik ----
           with gr.Row():
@@ -522,6 +546,12 @@ with gr.Blocks(
                         image_mode="RGB",
                         height=300,
                         elem_id="cmp-mask"
+                    )
+
+                    gr.Examples(
+                        examples=EXAMPLES,
+                        inputs=[cmp_image, cmp_gt],
+                        label="📂 Comparison Examples"
                     )
 
                     cmp_models = gr.CheckboxGroup(
