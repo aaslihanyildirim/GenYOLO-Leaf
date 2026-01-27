@@ -186,5 +186,6 @@ If you use **GenYOLO-Leaf** in your research, please cite our research paper:
   number  = {2},
   pages   = {145--145},
   doi     = {10.1007/s00371-025-04351-4},
+  url     = {https://doi.org/10.1007/s00371-025-04351-4},
 }
 
