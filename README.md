@@ -174,4 +174,17 @@ On the Evaluation screen, you can upload the image you want to test and its corr
 ---
 ## 📖 Citation
 
-If you are going to use the published weights or GenYOLO-Leaf Gradio App within the scope of this study, please cite the original repo and research article to be added.
+If you use **GenYOLO-Leaf** in your research, please cite our research paper:
+
+```bibtex
+@article{Yildirim2026GenYOLOLeaf,
+  title   = {GenYOLO-leaf: a data-centric and open source framework for generalizable leaf instance segmentation across diverse datasets},
+  author  = {Y{\i}ld{\i}r{\i}m, Asl{\i}han and Terzi, Ramazan},
+  journal = {The Visual Computer},
+  year    = {2026},
+  volume  = {42},
+  number  = {2},
+  pages   = {145--145},
+  doi     = {10.1007/s00371-025-04351-4},
+}
+
