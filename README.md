@@ -174,7 +174,7 @@ On the Evaluation screen, you can upload the image you want to test and its corr
 ---
 ## 📖 Citation
 
-If you use **GenYOLO-Leaf** in your research, please cite our research paper:
+If you use **GenYOLO-Leaf** in your research, please cite our [research paper](https://link.springer.com/article/10.1007/s00371-025-04351-4):
 
 ```bibtex
 @article{Yildirim2026GenYOLOLeaf,
